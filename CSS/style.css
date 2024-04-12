@@ -24,7 +24,7 @@ header, footer {
     
 }
 
-a {
+header a {
     padding: 2rem;
     background-color: whitesmoke;
     border-radius: 1rem;
@@ -32,7 +32,7 @@ a {
     color: black;
     font-family: fantasy;
     font-size: large;
-  
+    
     
 }
 
@@ -57,6 +57,8 @@ p {
    margin-right: 10rem;
    font-size: 1.5rem;
    color: antiquewhite;
+   text-shadow: 2px 2px #000000;
+   
 }
 
 body {
@@ -75,5 +77,19 @@ body {
     color: antiquewhite;
     list-style-type: none;
     padding-top: 25rem;
+   text-shadow: 2px 2px #000000;
+    
  }
   
+ .centered{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 35rem;
+    width: 10rem;
+    color: whitesmoke;
+ }
+
+ psw {
+    color:blue,
+ }
