@@ -17,10 +17,11 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
-                color: brown;
                 text-align: center;
                 gap: 1rem;
-
+                position: fixed;
+                top: 0;
+                transition: top 0.3s;
             }
 
             header>img {
@@ -29,8 +30,21 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+
         }
     </style>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
 </head>
 
@@ -45,37 +59,48 @@
     <form class="products" action="cart.html" method="post">
         <div class="container">
             <div class="row">
-                <div class="col"><img src="/Images/headset.jpg" alt="headset"><br>Corsair Void Pro RGB Wireless Gaming Headset - Dolby
+                <div class="col"><img src="/Images/headset.jpg" alt="headset"><br>Corsair Void Pro RGB Wireless Gaming
+                    Headset - Dolby
                     7.1
                     Surround Sound Headphones for PC - Discord Certified - 50mm Drivers - Carbon
                     <br><span>$199.99</span> <br><button type="submit" class="submitbtn">Add To
-                        Cart</button> </div>
-                <div class="col"><img src="/Images/desk.jpg" alt="desk"><br>Bestier Small L Shaped Gaming Desk with LED Lights, 42
+                        Cart</button>
+                </div>
+                <div class="col"><img src="/Images/desk.jpg" alt="desk"><br>Bestier Small L Shaped Gaming Desk with LED
+                    Lights, 42
                     Inch
                     Computer Desk with Monitor Stand, Open Storage Cabinet & Side Storage Bag, Corner Desk with Hooks
                     for
-                    Bedroom Home Office<br><span>$149.99</span><br><button type="submit" class="submitbtn">Add To Cart</button></div>
-                <div class="col"><img src="/Images/dell.jpg" alt="dell"><br>Dell P2219H 21.5-inch Full HD IPS Display with DP,
+                    Bedroom Home Office<br><span>$149.99</span><br><button type="submit" class="submitbtn">Add To
+                        Cart</button></div>
+                <div class="col"><img src="/Images/dell.jpg" alt="dell"><br>Dell P2219H 21.5-inch Full HD IPS Display
+                    with DP,
                     HDMI, VGA &
-                    USB 3.0 Ports<br><span>$150.00</span><br><button type="submit" class="submitbtn">Add To Cart</button></div>
+                    USB 3.0 Ports<br><span>$150.00</span><br><button type="submit" class="submitbtn">Add To
+                        Cart</button></div>
             </div>
             <div class="row"></div>
 
             <div class="row">
-                <div class="col"><img src="/Images/monitor.jpg" alt="monitor"><br>Westinghouse 32 Inch Gaming Monitor, 144Hz, 1440p,
+                <div class="col"><img src="/Images/monitor.jpg" alt="monitor"><br>Westinghouse 32 Inch Gaming Monitor,
+                    144Hz, 1440p,
                     VA Panel, AMD
                     Freesync Premium Adaptive Sync, QHD Computer Monitor with x1 DisplayPort, x2 HDMI, RGB Backlight, &
                     Built in
-                    Headphone Holder<br><span>$289.99</span><br><button type="submit" class="submitbtn">Add To Cart</button></div>
-                <div class="col"><img src="/Images/soundbar.jpg" alt="soundbar"><br>Razer Leviathan V2 X PC Gaming and Music Sound Bar
+                    Headphone Holder<br><span>$289.99</span><br><button type="submit" class="submitbtn">Add To
+                        Cart</button></div>
+                <div class="col"><img src="/Images/soundbar.jpg" alt="soundbar"><br>Razer Leviathan V2 X PC Gaming and
+                    Music Sound Bar
                     Speaker -
                     Black<br><span>$99.99</span><br><button type="submit" class="submitbtn">Add To
                         Cart</button></div>
-                <div class="col"><img src="/Images/tower.PNG" alt="tower"><br>CyberPowerPC Gamer Master Desktop Tower Computer, AMD
+                <div class="col"><img src="/Images/tower.PNG" alt="tower"><br>CyberPowerPC Gamer Master Desktop Tower
+                    Computer, AMD
                     Ryzen 7
                     3700X, 16GB RAM, NVIDIA GeForce RTX 3060, 1TB HDD & 240GB SSD, Windows 10 Home, Black, GMA3088W
                     <br><span>$1529.00</span><br><button type="submit" class="submitbtn">Add To
-                        Cart</button></div>
+                        Cart</button>
+                </div>
             </div>
         </div>
     </form>
