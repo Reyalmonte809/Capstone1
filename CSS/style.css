@@ -201,7 +201,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    
+   
+ }
+
+ .col >img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
  }
  .row {
     gap: 1rem;
@@ -234,12 +241,13 @@ body {
     margin-bottom: 5rem;
     display: flex;
     height: 15rem;
-    max-width: 70rem;
+    max-width: 100rem;
     opacity: 0.8;
     margin-left: auto;
     margin-right: auto;
    justify-content: space-between;
     align-content: center;
+    
 } 
 
 .column * {
@@ -263,6 +271,7 @@ body {
     max-width: 13rem;
    text-align: center;
    background-color: gray;
+   padding: 1rem;
  }
 
  .submitbtn2 {
@@ -290,3 +299,4 @@ header a:hover{
    background-color: silver;
    
 }
+
