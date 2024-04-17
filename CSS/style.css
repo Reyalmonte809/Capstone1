@@ -281,3 +281,12 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
  }
+
+.sel span{
+   display: block;
+}
+
+header a:hover{
+   background-color: silver;
+   
+}
