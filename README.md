@@ -9,11 +9,12 @@
 ##Product Page
 -Has 6 products with discription and images
 -each one has an add cart button and price
-![Alt text](/readme/productpage.PNG)
+![Alt text](/readme/productpage2.PNG)
 ##Login Page
 -Username
 -Password
 -submit button
+-remember me
 ![Alt text](/readme/loginpage.PNG)
 ###Login Registration
 -forgot password
