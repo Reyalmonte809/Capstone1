@@ -15,7 +15,7 @@
 -Password
 -submit button
 -remember me
-![Alt text](/readme/loginpage.PNG)
+![Alt text](/readme/loginpage2.PNG)
 ###Login Registration
 -forgot password
 -create page

@@ -26,6 +26,13 @@
             display: none;
         }
 
+        .centered {
+            background-image: url(/Images/login.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
         @media screen and (max-width: 600px) {
             .topnav a:not(:first-child) {
                 display: none;
@@ -64,7 +71,7 @@
     </script>
 </head>
 
-<body>
+<body class="centered">
     <header class="topnav" id="myTopnav">
         <img src="/Images/logo(1).jpg" class="logo" alt="logo">
         <a href="index.html">Home</a>
@@ -77,7 +84,7 @@
     </header>
 
 
-    <form class="centered" action="product.html" method="post">
+    <form class="centered2" action="product.html" method="post">
         <fieldset>
             <legend>
                 Sign In

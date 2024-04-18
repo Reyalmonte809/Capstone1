@@ -88,7 +88,7 @@ body {
     
  }
   
- .centered{
+ .centered2{
     display: block;
     margin-left: auto;
     margin-right:auto;
@@ -96,10 +96,7 @@ body {
     margin-bottom: 7rem;
     width: 13rem;
     color: whitesmoke;
-    background-image: url(/Images/login.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+
     
  }
 
@@ -135,14 +132,8 @@ body {
     margin-bottom: 5rem;
     width: 90%;
     color: whitesmoke;
-    /* max-width: 30rem; */
     font-size: 1.5vw;
     padding: 2rem;
-    /* background-image: url(/Images/screen.jpg); */
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-position-y: 7rem; */
     color: #000000;
  }
 
