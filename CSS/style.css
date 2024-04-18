@@ -27,7 +27,7 @@ header, footer {
 }
 
 header a {
-    padding: 2rem;
+    padding: 1rem 1.2rem 1rem 1.2rem;
     background-color: whitesmoke;
     border-radius: 1rem;
     text-decoration: none;
@@ -132,18 +132,17 @@ body {
     display: block;
     margin-left: auto;
     margin-right:auto;
-   
     margin-bottom: 5rem;
     width: 90%;
     color: whitesmoke;
     /* max-width: 30rem; */
     font-size: 1.5vw;
     padding: 2rem;
-    background-image: url(/Images/screen.jpg);
-    background-repeat: no-repeat;
+    /* background-image: url(/Images/screen.jpg); */
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-position-y: 7rem;
+    background-position-y: 7rem; */
     color: #000000;
  }
 
@@ -249,7 +248,8 @@ body {
    justify-content: space-between;
     align-content: center;
     font-size: 1rem;
- 
+    overflow: hidden;
+    text-overflow: ellipsis;
    
 } 
 
