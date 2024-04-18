@@ -236,12 +236,12 @@ body {
     opacity: 0.8;
     margin-left: auto;
     margin-right: auto;
-   justify-content: space-between;
+   justify-content: space-around;
     align-content: center;
     font-size: 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
-   
+   text-align: center;
 } 
 
 .column * {
@@ -309,4 +309,8 @@ div .row{
 
 .form{
    margin-top: 12rem;
+}
+.column img{
+   width: 100%;
+   max-width: 30%;
 }
